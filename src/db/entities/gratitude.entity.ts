@@ -9,7 +9,7 @@ export class Gratitude implements IGratitudeData {
   @Column({ nullable: true, default: null, length: 16 })
   from: string | null;
 
-  @Column({ nullable: false })
+  @Column({ nullable: false, length: 16 })
   to: string;
 
   @Column({ nullable: false })
