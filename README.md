@@ -10,6 +10,10 @@ $ npm install
 ## Running the migration
 
 ```bash
+$ npm run build
+```
+
+```bash
 $ typeorm migration:run
 ```
 
